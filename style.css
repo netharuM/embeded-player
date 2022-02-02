@@ -1,0 +1,55 @@
+body {
+    background-color: #181818;
+}
+
+button {
+    background-color: black;
+    color: white;
+    border: 2px solid black;
+    padding: 15px;
+    border: none;
+    border-radius: 11px;
+    font-family: "Press Start 2P", cursive;
+}
+
+button:hover {
+    cursor: pointer;
+    background-color: red;
+}
+
+button:active {
+    transform: scale(0.95);
+}
+.playerInput {
+    background-color: black;
+    border: none;
+    padding: 10px;
+    color: white;
+    font-size: 20px;
+    border-radius: 15px;
+    outline: none;
+    font-family: "Press Start 2P", cursive;
+    width: 100%;
+}
+
+.vidSelect {
+    padding: 5px;
+    display: flex;
+    gap: 5px;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.preview {
+    width: 100%;
+    height: calc(100vh - 100px);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(44, 44, 44);
+    border-radius: 11px;
+    background-image: url("./cherry-page-not-found.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 200px 200px;
+}
